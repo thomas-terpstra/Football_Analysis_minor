@@ -31,7 +31,7 @@ def main():
     ## Draw object tracks
     output_video_frames = tracker.draw_annotations(video_frames, tracks)
     # Save Video
-    save_video(output_video_frames, 'output_video/output_video.avi')
+    save_video(output_video_frames, 'output_video/output_video_1.avi')
 
 if __name__ == "__main__":
     main()
